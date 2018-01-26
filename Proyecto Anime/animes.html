@@ -14,6 +14,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/styless.css">
   <script src="js/animes.js" charset="utf-8"></script>
+  <link rel="shortcut icon" href="http://www.iconj.com/ico/q/j/qjq8hiof0d.ico" type="image/x-icon" />
   <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
 </head>
 <body>
@@ -33,9 +34,9 @@
           <li><a href="index.html">Inicio</a></li>
           <li><a href="seguimiento.html">Seguimiento</a></li>
           <li><a href="trivial.html">Trivial</a></li>
-          <li class="active"><a href="animes.html">Añade</a></li>
+          <li class="active"><a href="animes.html">Sugerencias</a></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Animes
+            <a class="dropdown-toggle" data-toggle="dropdown" href="shonen.html">Animes
               <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="shonen.html">Shonen</a></li>
@@ -54,7 +55,8 @@
 
     </nav>
 
-    <div class="container">
+    <div class="container espacio">
+        <p class="centrar bordito2">¡Aquí podrás aportar tus animes favoritos!</p>
       <div class="row">
         <div class="col-sm-4">
           <form id="formulario" method="post">
@@ -165,13 +167,14 @@
           <table class="table">
             <thead>
               <tr>
-                <th class="text-center">Anime</th>
-                <th class="text-center">Autor</th>
-                <th class="text-center">Descripción</th>
-                <th class="text-center">Email</th>
-                <th class="text-center">Fecha de Estreno</th>
-                <th class="text-center">Género</th>
-                <th class="text-center">Recomendado</th>
+                <th class="text-center bordito3"></th>
+                <th class="text-center bordito3">Anime</th>
+                <th class="text-center bordito3">Autor</th>
+                <th class="text-center bordito3">Descripción</th>
+                <th class="text-center bordito3">Email</th>
+                <th class="text-center bordito3">Fecha de Estreno</th>
+                <th class="text-center bordito3">Género</th>
+                <th class="text-center bordito3">Recomendado</th>
               </tr>
             </thead>
             <tbody id="tabla" class="text-center"></tbody>
